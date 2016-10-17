@@ -1,0 +1,68 @@
+body{
+  font: 16px Verdana, Arial, sans-serif;
+  color: grey;
+}
+.todo__title{
+      margin: 50px auto;
+    color: #155696;
+    font-size: 40px;
+    text-align: center;
+}
+.todo__list{
+  list-style: none;
+  margin: 0 auto;
+  padding: 5% 25% 10% ;
+}
+.todo__item{
+  width: 100%;
+  height: 25px;
+}
+.todo__btn{
+  float: left;
+}
+.todo__input{
+  display: inline-block;
+}
+.todo__btn--save,
+.todo__input--edit{
+  display: none;
+  
+}
+.todo__btn--edit,
+.todo__btn--save,
+.todo__btn--delete{
+  float: right;
+    margin-left: 8px;
+    border: 1px solid #bac2c5;
+    border-radius: 3px;
+    padding: 2px 5px;
+    background-color: #9ddaf2;
+    color: #807c79;
+ }
+.todo__wrapper{
+  width: 80%;
+  margin: 0 auto;
+}
+.todo__item{
+   border: solid #cdf9b1 1px;
+   padding: 8px 5px;
+}
+.todo__add-task{
+  width: 260px;
+  margin: 0 auto;
+
+}
+.todo__btn--add{
+  border: 1px solid #bac2c5;
+  border-radius: 3px;
+  background-color: #9ddaf2;
+  color: #807c79;
+  height: 24px;
+  margin-right: 10px;
+}
+.todo__input{
+  height: 20px;
+}
+
+
+
